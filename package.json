@@ -1,6 +1,6 @@
 {
-  "name": "electron-google-analytics",
-  "version": "1.0.0",
+  "name": "electron-google-analytics-renderer",
+  "version": "1.0.1",
   "description": "A library to implement Google Analytics in desktop apps.",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:vacu/electron-google-analytics.git"
+    "url": "git@github.com:FastAuth/electron-google-analytics.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -36,7 +36,6 @@
     "mocha": "^8.0.1"
   },
   "dependencies": {
-    "electron-fetch": "^1.4.0",
     "uuid": "^8.1.0"
   }
 }
